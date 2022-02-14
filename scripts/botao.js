@@ -4,7 +4,7 @@ export default function botao() {
     const botao = $('#button');
     const peso = $('#peso');
     const altura = $('#altura');
-    const resposta = $('#valorResposta');
+    const resposta = $('#valoResposta');
     const imc = peso / (altura*altura);
 
     botao.addEventListener('click' ,() => {
