@@ -1,0 +1,79 @@
+@import url('./styles/reset.css');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(116.82deg, rgba(247, 183, 24, 0.7) 0%, rgba(245, 197, 78, 0.6) 100%);
+}
+
+#containerIMC {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+    border-radius: 10px;
+    width: 35%;
+    height: 50%;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+#calculeIMC {
+    display: flex;
+    align-self: center;
+    font-size: clamp(1em, 1em + 1.5vw, 2em);
+    margin-top: 3%;
+}
+
+#dados {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    width: 55%;
+    height: 50%;
+    margin-top: 5%;
+    color: #000000;
+}
+
+#dados span {
+    font-size: clamp(1em, 1em + 1vw, 1.2em);
+    margin-left: 5%; 
+}
+
+#dados input {
+    -webkit-appearance: none;
+    appearance: none;
+    display: flex;
+    align-self: center;
+    width: 90%;
+    height: 10px;
+    background: white;
+}
+
+#dados button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 65%;
+    height: 35px;
+    background: #F7B718;
+}
+
+#resposta {
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+    width: 50%;
+    margin-top: 5%;
+}

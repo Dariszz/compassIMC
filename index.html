@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+        <script src="index.js" type="module" defer></script>
+    </head>
+    <body>
+        <main>
+            <div id="container">
+                <div id="containerIMC">
+                    <div id="calculeIMC">
+                        <h2>Calcule seu IMC</h2>
+                    </div>
+                    <div id="dados">
+                        <span>Peso</span>
+                        <input type="range" name="volP" value="0" min="0" max="150" id="peso">
+                        <p>Altura</p>
+                        <input type="range" name="volA" value="0" min="0" max="2,5" id="altura">
+                        <button id="button">Calcular</button>
+                    </div>
+                    <div id="resposta">
+                        <p id="valorResposta"></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
